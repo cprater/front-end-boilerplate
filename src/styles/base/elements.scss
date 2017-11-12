@@ -1,0 +1,52 @@
+// ----------------------
+//  ELEMENT STYLES
+// -------------------------
+
+* {
+  box-sizing: border-box;
+}
+
+﻿html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $FONT_FAMILY;
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a,
+a:hover {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button {
+  appearance: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $FONT_FAMILY;
+  font-size: 1.6rem;
+  height: auto;
+  outline: none;
+  padding: 0;
+  width: auto;
+}
